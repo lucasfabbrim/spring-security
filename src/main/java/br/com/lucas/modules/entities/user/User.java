@@ -34,7 +34,6 @@ public class User {
     private Instant createTimestamp;
 
     public User(String username, String password, Set<Role> role) {
-        this.user_id = UUID.randomUUID();
         this.username = username;
         this.password = password;
         this.role = role;
